@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>vidva</Name>
+  <Repository>vanshady/vidva:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <ReadMe/>
+  <Overview>View Plex library statistics in real-time with interactive charts and visualizations. See breakdowns for genres, countries, decades, directors, and cast.</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:5173]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/vanshady/vidva/main/public/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1777575536</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Plex Server URL" Target="PLEX_SERVER_URL" Default="" Mode="" Description="http://Your Plex's IP Address:32400" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Plex Token" Target="PLEX_TOKEN" Default="" Mode="" Description="https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Plex Server ID" Target="PLEX_SERVER_ID" Default="" Mode="" Description="Go to /identity and copy the server ID from machineIdentifier=" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Port" Target="5173" Default="5173" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5173</Config>
+  <Config Name="Default top cast count" Target="VIDVA_DEFAULT_TOP_CAST_COUNT" Default="4" Mode="" Description="all or 3 (plex default) or 4 (letterboxd default) or 5 or 10" Type="Variable" Display="always" Required="false" Mask="false">4</Config>
+  <TailscaleStateDir/>
+</Container>
