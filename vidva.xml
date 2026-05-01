@@ -2,23 +2,22 @@
 <Container version="2">
   <Name>vidva</Name>
   <Repository>vanshady/vidva:latest</Repository>
-  <Registry/>
+  <Registry>docker.io/vanshady/vidva:latest</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Project>https://github.com/vanshady/vidva</Project>
   <ReadMe/>
   <Overview>View Plex library statistics in real-time with interactive charts and visualizations. See breakdowns for genres, countries, decades, directors, and cast.</Overview>
-  <Category/>
+  <Category>Tools: MediaServer:Video</Category>
   <WebUI>http://[IP]:[PORT:5173]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/vanshady/vidva/main/public/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1777575536</DateInstalled>
+  <DateInstalled>1777579122</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
