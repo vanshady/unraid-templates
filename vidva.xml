@@ -7,6 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/198528-support-vanshady-vidva/</Support>
   <Project>https://github.com/vanshady/vidva</Project>
   <ReadMe/>
   <Overview>View Plex library statistics in real-time with interactive charts and visualizations. See breakdowns for genres, countries, decades, directors, and cast.</Overview>
